@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+:root { --bg:#f7f8fc; --ink:#111827; --muted:#6b7280; --card:#ffffff; --line:#e5e7eb; --primary:#6d5dfc; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font-family:Arial, Helvetica, sans-serif; }
+button,input,textarea,select { font:inherit; }
+.code-area { min-height:320px; font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace; }
+.gradient-text { background:linear-gradient(90deg,#6d5dfc,#a855f7); -webkit-background-clip:text; color:transparent; }
