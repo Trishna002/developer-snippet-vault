@@ -26,5 +26,5 @@ A full-stack Next.js application for authenticated developers to save code snipp
 
 ## Live Demo
 
-- **Live Website:** https://developer-snippet-vault-vert.vercel.app/dashboard
+- **Live Website:** https://developer-snippet-vault-vert.vercel.app
 For easiest demo setup, in Supabase Authentication settings you can disable email confirmation. If confirmation stays enabled, configure the confirmation email to use `/auth/confirm?token_hash={{ .TokenHash }}&type=email`.
